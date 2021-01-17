@@ -1,0 +1,97 @@
+/*-- CSS page HW14 -->
+<!-- Project Name: JavaJam Web Site (HW14)
+Author: Emilie Blecker
+Date Last Modified: 4/21/2019*/
+
+
+* { box-sizing: border-box; }
+#wrapper
+{   width: 80%;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 2px 2px 2px #61503b;
+    margin-right: auto;
+    margin-left: auto;}
+body
+{   background-color: #fcebb6;
+    color: #221811;
+    background-image: url("background.gif"); 
+    font-family: Verdana, Arial, sans-serif;
+    list-style-position: inside;}
+
+header
+{   background-color: #d2b48c;
+    height: 149px;
+    background-image: url("javajamlogo.jpg");
+    background-repeat: no-repeat;}
+h1
+{
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em; }
+
+nav
+{   width: 200px;
+    float: left; 
+    font-weight:bold;
+    text-align:center;
+    font-size: 1.5em;
+    padding-top: 10px;}
+
+main
+{  
+    padding: 0, 0, 2em, 0;
+    margin-left: 200px;
+    background-color: #fef6c2;
+   }
+
+h4
+{   background-color: #d2b48c;
+    font-size:1.2em;
+    padding-left: .5em;
+    padding-bottom: 0em;
+    border-bottom: 1px solid #61503b;
+    text-transform: uppercase;
+    clear: left;}
+
+
+footer
+{   background-color: #d2b48c;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;}
+
+.details
+{ padding-left: 20%; padding-right: 20%; overflow: auto;}
+
+img
+{ padding-left: 10px; padding-right: 10px;}
+
+#heroroad
+{ background-image: url("heroroad.jpg"); background-size: 100% 100%; height:250px;}
+
+#heromugs
+{ background-image: url("heromugs.jpg"); background-size: 100% 100%; height:250px;}
+
+#heroguitar
+{background-image: url("heroguitar.jpg"); background-size: 100% 100%; height:250px;}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl
+{padding-left: 3em; padding-right: 2em;}
+
+
+nav a:link {color: #fef6c2;}
+nav a:visited {color: #d2b48c;}
+nav a:hover {color: #cc9933;}
+
+nav ul{list-style-type: none; padding-left: 0px; }
+
+
+.floatleft{float: left; padding-right: 2em; padding-bottom: 2em;}
+
+nav, header, main, footer { display: block; }
+
+nav a{text-decoration: none;}
